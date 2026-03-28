@@ -1,0 +1,19 @@
+{
+  "name": "team-radio-functions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Azure Functions backend for Team Radio MVP",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "@azure/communication-identity": "^1.3.1",
+    "@azure/communication-rooms": "^1.2.0",
+    "@azure/data-tables": "^13.3.2",
+    "@azure/functions": "^4.7.2",
+    "@azure/storage-blob": "^12.31.0",
+    "@azure/web-pubsub": "^1.2.0"
+  }
+}
